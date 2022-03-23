@@ -6,7 +6,7 @@ import { Sidebar, ChannelBar, ContentContainer } from '../components'
 
 const Home: NextPage = () => {
   return (
-    <div className='flex flex-col w-full'>
+    <div>
       <Sidebar />
       <ChannelBar />
       <ContentContainer />
